@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <TextView
+        android:id="@+id/txttrackvoteid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txttrackpriority"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txttrackid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/trackimage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/txtartistname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txttrackname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtalbumname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/btnlike"
+         android:src="@drawable/like"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <ImageButton
+        android:id="@+id/btnunlike"
+        android:src="@drawable/unlike"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</LinearLayout>
